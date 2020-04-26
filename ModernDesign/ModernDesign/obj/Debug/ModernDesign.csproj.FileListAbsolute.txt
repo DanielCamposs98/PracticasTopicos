@@ -1,0 +1,13 @@
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\bin\Debug\ModernDesign.exe.config
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\bin\Debug\ModernDesign.exe
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\bin\Debug\ModernDesign.pdb
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.csprojAssemblyReference.cache
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.Form1.resources
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.Form2.resources
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.Form3.resources
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.frmPrincipal.resources
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.Properties.Resources.resources
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.csproj.GenerateResource.cache
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.exe
+C:\Users\Daniel Campos\Desktop\C#\ModernDesign\ModernDesign\obj\Debug\ModernDesign.pdb
