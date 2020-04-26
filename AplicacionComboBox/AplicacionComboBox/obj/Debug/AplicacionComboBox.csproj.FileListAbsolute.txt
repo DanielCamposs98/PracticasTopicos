@@ -1,0 +1,10 @@
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\bin\Debug\AplicacionComboBox.exe.config
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\bin\Debug\AplicacionComboBox.exe
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\bin\Debug\AplicacionComboBox.pdb
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\obj\Debug\AplicacionComboBox.csprojAssemblyReference.cache
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\obj\Debug\AplicacionComboBox.Form1.resources
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\obj\Debug\AplicacionComboBox.Properties.Resources.resources
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\obj\Debug\AplicacionComboBox.csproj.GenerateResource.cache
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\obj\Debug\AplicacionComboBox.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\obj\Debug\AplicacionComboBox.exe
+C:\Users\Daniel Campos\Desktop\C#\AplicacionComboBox\AplicacionComboBox\obj\Debug\AplicacionComboBox.pdb
