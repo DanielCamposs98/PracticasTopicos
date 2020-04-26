@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBADB060-4A1E-45F6-B994-222AF0AA32B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NominaCSharp</RootNamespace>
+    <AssemblyName>NominaCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LibreriaBD">
+      <HintPath>..\..\..\source\repos\VentaBoletosSQL\LibreriaBD.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConexionBD.cs" />
+    <Compile Include="frmConsultaBono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaBono.Designer.cs">
+      <DependentUpon>frmConsultaBono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaDepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaDepto.Designer.cs">
+      <DependentUpon>frmConsultaDepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaDias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaDias.Designer.cs">
+      <DependentUpon>frmConsultaDias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaEncargados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaEncargados.Designer.cs">
+      <DependentUpon>frmConsultaEncargados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBtnAggEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBtnAggEmpleado.Designer.cs">
+      <DependentUpon>frmBtnAggEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBtnAggDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBtnAggDatos.Designer.cs">
+      <DependentUpon>frmBtnAggDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBtnBorrarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBtnBorrarEmpleado.Designer.cs">
+      <DependentUpon>frmBtnBorrarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBtnCapturarDias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBtnCapturarDias.Designer.cs">
+      <DependentUpon>frmBtnCapturarDias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaNomina.Designer.cs">
+      <DependentUpon>frmConsultaNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBtnRegBono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBtnRegBono.Designer.cs">
+      <DependentUpon>frmBtnRegBono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBtnRegistrarDepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBtnRegistrarDepto.Designer.cs">
+      <DependentUpon>frmBtnRegistrarDepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAcercaDe.Designer.cs">
+      <DependentUpon>frmAcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuConsultas.Designer.cs">
+      <DependentUpon>frmMenuConsultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuNomina.Designer.cs">
+      <DependentUpon>frmMenuNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuRegistros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuRegistros.Designer.cs">
+      <DependentUpon>frmMenuRegistros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuReportes.Designer.cs">
+      <DependentUpon>frmMenuReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteEmpleados.Designer.cs">
+      <DependentUpon>frmReporteEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteEmpDepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteEmpDepto.Designer.cs">
+      <DependentUpon>frmReporteEmpDepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsoFormulario.cs" />
+    <EmbeddedResource Include="frmConsultaBono.resx">
+      <DependentUpon>frmConsultaBono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaDepto.resx">
+      <DependentUpon>frmConsultaDepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaDias.resx">
+      <DependentUpon>frmConsultaDias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaEncargados.resx">
+      <DependentUpon>frmConsultaEncargados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBtnAggEmpleado.resx">
+      <DependentUpon>frmBtnAggEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBtnAggDatos.resx">
+      <DependentUpon>frmBtnAggDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBtnBorrarEmpleado.resx">
+      <DependentUpon>frmBtnBorrarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBtnCapturarDias.resx">
+      <DependentUpon>frmBtnCapturarDias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaNomina.resx">
+      <DependentUpon>frmConsultaNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBtnRegBono.resx">
+      <DependentUpon>frmBtnRegBono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBtnRegistrarDepto.resx">
+      <DependentUpon>frmBtnRegistrarDepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAcercaDe.resx">
+      <DependentUpon>frmAcercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuConsultas.resx">
+      <DependentUpon>frmMenuConsultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuNomina.resx">
+      <DependentUpon>frmMenuNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuRegistros.resx">
+      <DependentUpon>frmMenuRegistros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuReportes.resx">
+      <DependentUpon>frmMenuReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteEmpleados.resx">
+      <DependentUpon>frmReporteEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteEmpDepto.resx">
+      <DependentUpon>frmReporteEmpDepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
